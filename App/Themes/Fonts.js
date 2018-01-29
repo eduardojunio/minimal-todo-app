@@ -1,16 +1,16 @@
 const type = {
-  base: 'Avenir-Book',
-  bold: 'Avenir-Black',
+  base: 'GothamRounded-Book',
+  bold: 'GothamRounded-Medium',
   emphasis: 'HelveticaNeue-Italic'
 }
 
 const size = {
-  h1: 38,
-  h2: 34,
-  h3: 30,
-  h4: 26,
-  h5: 20,
-  h6: 19,
+  h1: 30,
+  h2: 28,
+  h3: 22,
+  h4: 18,
+  h5: 16,
+  h6: 14,
   input: 18,
   regular: 17,
   medium: 14,
@@ -24,6 +24,7 @@ const style = {
     fontSize: size.h1
   },
   h2: {
+    fontFamily: type.base,
     fontWeight: 'bold',
     fontSize: size.h2
   },
@@ -40,7 +41,7 @@ const style = {
     fontSize: size.h5
   },
   h6: {
-    fontFamily: type.emphasis,
+    fontFamily: type.base,
     fontSize: size.h6
   },
   normal: {
